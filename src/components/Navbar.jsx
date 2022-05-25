@@ -14,10 +14,19 @@ function Navbar(){
               <li>
                 <Link to="/manajemen-buku" className="nav-link"> Manajemen Buku </Link>
               </li>
+              
+              <li>
+                <Link to="/my-profil" className="nav-link"> My Profil</Link>
+              </li>
+              <li>
+                <Link to="/my-contact" className="nav-link">My Contact</Link>
+              </li>
             </ul>
           </div>
         </nav>
       </div>
+
+      
     );
 }
 export default Navbar;
